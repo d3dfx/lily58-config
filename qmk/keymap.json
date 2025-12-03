@@ -1,9 +1,9 @@
 {
-  "version": 1,
-  "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
+  "notes": "",
+  "version": 1,
   "keyboard": "boardsource/lulu/rp2040",
-  "keymap": "boardsource_lulu_rp2040_boardsource_lulu_rp2040_layout_mine",
+  "keymap": "boardsource_lulu_rp2040_layout_d3dfx",
   "layout": "LAYOUT",
   "layers": [
     [
@@ -64,7 +64,7 @@
       "KC_ENT",
       "MO(1)",
       "KC_BSPC",
-      "KC_CAPS"
+      "KC_RALT"
     ],
     [
       "KC_F1",
@@ -127,12 +127,12 @@
       "KC_TRNS"
     ],
     [
-      "RGB_MOD",
-      "RGB_RMOD",
-      "RGB_SAI",
-      "RGB_SAD",
-      "RGB_VAI",
-      "RGB_VAD",
+      "UG_NEXT",
+      "UG_PREV",
+      "UG_SATU",
+      "UG_SATD",
+      "UG_VALU",
+      "UG_VALD",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -141,8 +141,8 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "RGB_HUI",
-      "RGB_HUD",
+      "UG_HUEU",
+      "UG_HUED",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -169,7 +169,7 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "RGB_TOG",
+      "UG_TOGG",
       "KC_TRNS",
       "KC_TRNS",
       "KC_HOME",
